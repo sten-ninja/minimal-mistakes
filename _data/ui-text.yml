@@ -1757,6 +1757,56 @@ my: &DEFAULT_MY
 my-MM:
   <<: *DEFAULT_MY
 
+# Estonian (eesti)
+# -----------------
+et: &DEFAULT_ET
+  skip_links                 : "Jäta lingid vahele"
+  skip_primary_nav           : "Liigu põhi-navigatsiooni juurde"
+  skip_content               : "Liigu sisu juurde"
+  skip_footer                : "Liigu jalusesse"
+  page                       : "Leht"
+  pagination_previous        : "Eelmine"
+  pagination_next            : "Järgmine"
+  breadcrumb_home_label      : "Avaleht"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Menüü"
+  search_label               : "Otsi"
+  toc_label                  : "Sellel lehel"
+  ext_link_label             : "Otselink"
+  less_than                  : "vähem kui"
+  minute_read                : "minute read"
+  share_on_label             : "Jaga"
+  meta_label                 :
+  tags_label                 : "Sildid:"
+  categories_label           : "Kategooriad:"
+  date_label                 : "Uuendatud:"
+  comments_label             : "Kommenteeri"
+  comments_title             : "Kommentaarid"
+  more_label                 : "Rohkem infot"
+  related_label              : "Sulle võib meeldida"
+  follow_label               : "Järgi:"
+  feed_label                 : "Sööde"
+  powered_by                 : "Leht kasutab"
+  website_label              : "Veebileht"
+  email_label                : "Email"
+  recent_posts               : "Viimased postitused"
+  undefined_wpm              : "Defineerimata parameeter words_per_minute at _config.yml"
+  comment_form_info          : "Sinu meiliaadressi ei avaldata. Nõutud väljad on märgitud"
+  comment_form_comment_label : "Kommentaar"
+  comment_form_md_info       : "Markdown on toetatud."
+  comment_form_name_label    : "Nimi"
+  comment_form_email_label   : "Meiliaadress"
+  comment_form_website_label : "Veebileht (valikuline)"
+  comment_btn_submit         : "Saada kommentaar"
+  comment_btn_submitted      : "Saadetud"
+  comment_success_msg        : "Tänud kommentaari eest! See kuvatakse saidil kohe pärast kinnitamist."
+  comment_error_msg          : "Ups. Tundub, et midagi läks valesti. Palun kontrolli, et kõik vajalikud väljad oleks täidetud ja proovi uuesti."
+  loading_label              : "Laeb..."
+  search_label_text          : "Sisesta oma otsisõna siia..."
+  search_placeholder_text    : "Sisesta oma otsisõna siia..."
+  results_found              : "Tulemus(t) leitud"
+  back_to_top                : "Tagasi algusesse"
+
 # Another locale
 # --------------
 #
